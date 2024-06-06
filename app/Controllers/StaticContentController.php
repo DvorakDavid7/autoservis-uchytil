@@ -14,7 +14,7 @@ class StaticContentController
 
     public function serve(Request $request, Response $response, $args): Response
     {
-        $filePath = __DIR__ . '/../public_html/index.html';
+        $filePath = __DIR__ . '/../../public_html/index.html';
         $response->getBody()->write(file_get_contents($filePath));
         return $response->withHeader('Content-Type', 'text/html');
     }
