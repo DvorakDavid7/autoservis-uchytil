@@ -3,6 +3,6 @@
 ### run locally
 
 ```bash
-cd public
+cd public_html
 php -S localhost:8008
 ```
