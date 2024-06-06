@@ -4,14 +4,9 @@ use App\Controllers\StaticContentController;
 use Slim\Factory\AppFactory;
 
 
-$controller = new StaticContentController();
-
 $app = AppFactory::create();
 
-$app->get('/', function ($request, $response, $args) {
-    $response->getBody()->write('home response');
-    return $response;
-});
+$app->get('/', [new StaticContentController, 'serve']);
 
 $app->get('/api', function ($request, $response, $args) {
     $response->getBody()->write('api response');
