@@ -1,1 +1,0 @@
-import{_ as e,v as t,t as s,x as n}from"./BCUMZTm6.js";const c={},o=n("h1",null,"this is index page",-1),_=[o];function a(r,i){return s(),t("div",null,_)}const l=e(c,[["render",a]]);export{l as default};
