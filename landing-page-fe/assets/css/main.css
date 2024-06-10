@@ -6,14 +6,13 @@
 @tailwind utilities;
 
 :root {
-    --primary-red: #F33235;
+  --primary-red: #F33235;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .text-primary-red {
-    color: var(--primary-red);
+  color: var(--primary-red);
 }
-
-.bg-primary-red {
-    background-color: var(--primary-red);
-}
-
