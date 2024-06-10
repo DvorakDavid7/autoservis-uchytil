@@ -1,6 +1,6 @@
 <template>
     <nav
-        :class="`flex items-center ${hiddenClass} justify-between bg-primary-red animate__animated ${animation} animate__faster ps-5 pe-5 pt-2 pb-2`"
+        :class="`flex items-center ${hiddenClass} justify-between bg-[var(--primary-red)] animate__animated ${animation} animate__faster ps-5 pe-5 pt-2 pb-2`"
     >
         <img class="w-1/6" src="../assets/logo_white.svg" alt="logo">
 
