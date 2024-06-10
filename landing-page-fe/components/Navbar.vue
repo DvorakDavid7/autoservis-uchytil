@@ -1,6 +1,6 @@
 <template>
     <nav
-        :class="`flex items-center justify-between bg-primary-red animate__animated ${animation} animate__faster ps-5 pe-5 pt-2 pb-2`"
+        :class="`flex items-center ${hiddenClass} justify-between bg-primary-red animate__animated ${animation} animate__faster ps-5 pe-5 pt-2 pb-2`"
     >
         <img class="w-1/6" src="../assets/logo_white.svg" alt="logo">
 
@@ -16,10 +16,12 @@
 <script setup lang="ts">
 
 const animation = ref<string>("")
+const hiddenClass = ref<string>("hidden")
 
 function handleScroll() {
     if (window.scrollY > window.innerHeight * 0.8) {
         animation.value = "animate__fadeInDown"
+        hiddenClass.value = ""
     } else {
         animation.value = "animate__fadeOutUp"
     }

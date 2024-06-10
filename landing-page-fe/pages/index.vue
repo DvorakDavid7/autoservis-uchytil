@@ -17,12 +17,27 @@
         <ReservationButton/>
 
         <div class="mt-20">
-            <i class="bi bi-chevron-compact-down text-gray-400 text-4xl"></i>
+            <ArrowButton/>
         </div>
     </div>
     <Navbar/>
-    <div class="h-screen">
-        <ReservationForm/>
+
+    <div class="">
+        <div class="text-center mt-24">
+            <h1 class="mb-5 text-xl uppercase">
+                Právě probíhá
+            </h1>
+            <h1 class="text-4xl">
+                <span class="text-primary-red">Plnění klimatizací</span> za
+            </h1>
+            <h1 class="text-4xl">
+                zvýhodněnou cenu!
+            </h1>
+        </div>
+
+        <div class="flex justify-center items-center mt-10">
+            <ReservationForm/>
+        </div>
     </div>
 
 </template>

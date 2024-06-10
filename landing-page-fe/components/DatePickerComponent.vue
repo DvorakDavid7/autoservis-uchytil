@@ -1,5 +1,7 @@
 <template>
-    <VueDatePicker input-class-name="input" v-model="date"></VueDatePicker>
+    <div>
+        <VueDatePicker input-class-name="input" v-model="date"></VueDatePicker>
+    </div>
 </template>
 
 <script setup lang="ts">
@@ -13,7 +15,7 @@ const date = ref();
 <style>
 .input {
     border-radius: 0.5rem;
-    font-size: 1.5rem;
+    line-height: 1.8rem;
 }
 
 </style>
