@@ -10,18 +10,20 @@
         <div class="flex-grow"></div>
         <div class="flex items-center space-x-4 mr-5">
           <div class="flex items-center text-2xl mr-5 text-white">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="mb-1 bi bi-telephone-fill"></i>
             <span class="not-italic text-sm ml-5  "><strong>(+420) 605 844 075</strong></span>
           </div>
-          <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
-            <i class="bi bi-linkedin"></i>
-          </a>
+          <div class="items-center justify-center flex flex-wrap space-x-4 mb-1">
+            <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </nav>

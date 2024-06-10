@@ -1,11 +1,11 @@
 <template>
     <div class="justify-center items-center text-center ">
-      <div class=" text-gray-200 text-8xl font-bold">
+      <div class=" text-white text-6xl font-bold">
         <ClientOnly>
             <AnimatedCounter :value=counterTo :duration=counterDuration class="counter"/>
         </ClientOnly>
       </div>
-      <div class="text-gray-100 mt-3 text-2xl font-bold uppercase">
+      <div class="text-white mt-3 text-2xl font-normal uppercase">
         <h1>{{ counterTitle }}</h1>
       </div>
     </div>
