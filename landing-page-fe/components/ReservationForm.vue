@@ -8,7 +8,7 @@
                 <input
                     id="first_name"
                     type="text"
-                    class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     placeholder="Jan"
                     required
                 />
@@ -21,7 +21,7 @@
                 <input
                     id="last_name"
                     type="text"
-                    class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     placeholder="Novák"
                     required
                 />
@@ -29,47 +29,47 @@
 
             <div>
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900">
-                    email
+                    Email
                 </label>
                 <input
                     id="email"
                     type="email"
-                    class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                    placeholder="John"
+                    class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    placeholder="jnovak@gmail.com"
                     required
                 />
             </div>
 
             <div>
                 <label for="phone" class="block mb-2 text-sm font-medium text-gray-900">
-                    telefon
+                    Telefon
                 </label>
                 <input
                     id="phone"
                     type="text"
-                    class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                    placeholder="John"
+                    class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    placeholder="722 159 402"
                     required
                 />
             </div>
 
             <div class="block mb-2 text-sm font-medium text-gray-900">
                 <label for="date" class="block mb-2 text-sm font-medium text-gray-900">
-                    datum
+                    Datum rezervace
                 </label>
                 <DatePickerComponent/>
             </div>
 
             <div>
                 <label for="service" class="block mb-2 text-sm font-medium text-gray-900">
-                    sluzba
+                    Služba
                 </label>
 
                 <input
                     type="text"
                     id="service"
-                    class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                    placeholder="John"
+                    class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    placeholder="plnění klimatizací"
                     required
                 />
             </div>
