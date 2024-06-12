@@ -1,7 +1,7 @@
 <template>
     <section id="reservation" class="py-10">
-        <div class="relative flex items-center justify-center">
-            <div class="w-full flex flex-col items-center">
+        <div class="flex items-center justify-center">
+            <div class="flex flex-col items-center">
                 <Headings
                     headings-title="Rezervační "
                     headings-title-black=" formulář"

@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-10 mb-20 text-center">
+    <div class="mt-10 mb-10 text-center">
         <h1 class="mb-2 text-[var(--primary-red)] text-5xl uppercase">
             <strong>{{ headingsTitle }}</strong>
             <span class="relative">
