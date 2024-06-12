@@ -1,6 +1,6 @@
 <template>
     <nav
-        :class="`z-100 sm:flex items-center justify-between bg-[var(--primary-red)] animate__animated ${hiddenClass} ${animation} animate__faster p-3 shadow-lg`"
+        :class="`z-100 items-center justify-between bg-[var(--primary-red)] animate__animated ${hiddenClass} ${animation} animate__faster p-3 shadow-lg`"
     >
         <div class="hidden sm:flex items-center text-white">
             <a href="">
@@ -35,7 +35,7 @@ const OFFSET = 100;
 function handleScroll() {
     if (window.scrollY > OFFSET) {
         animation.value = "animate__fadeInDown"
-        hiddenClass.value = ""
+        hiddenClass.value = "sm:flex"
     } else {
         animation.value = "animate__fadeOutUp"
     }
