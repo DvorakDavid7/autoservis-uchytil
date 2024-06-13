@@ -7,7 +7,7 @@
                     <img :src="serviceImage" alt="Service Image"/>
                 </div>
             </div>
-            <Card class="justify-center mb-16 shadow items-center">
+            <Card style="max-width: 25rem;" class="justify-center mb-16 shadow items-center">
                 <template #title>
                     <div class=" mt-2 uppercase text-black text-2xl">
                         <h1>{{ serviceTitle }}</h1>
@@ -17,11 +17,6 @@
                     <p class="m-0 hyphens-autotext-balance text-gray-400 text-md" lang="cz">
                         {{ serviceDescription }}
                     </p>
-                </template>
-                <template #footer>
-                    <div class="flex text-sm mt-5 justify-center items-center">
-                        <a class="text-[var(--primary-red)] underline  decoration-2 font-bold py-2 px-4 rounded-full">VÍCE</a>
-                    </div>
                 </template>
             </Card>
         </div>
