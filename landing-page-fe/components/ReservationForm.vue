@@ -35,7 +35,7 @@
                     id="email"
                     type="email"
                     class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                    placeholder="jnovak@gmail.com"
+                    placeholder="jannovak@gmail.com"
                     required
                 />
             </div>
@@ -61,17 +61,16 @@
             </div>
 
             <div>
-                <label for="service" class="block mb-2 text-sm font-medium text-gray-900">
-                    Služba
-                </label>
 
-                <input
-                    type="text"
-                    id="service"
-                    class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                    placeholder="plnění klimatizací"
-                    required
-                />
+                <label for="countries" class="block mb-2 text-sm font-medium text-gray-900">
+                    Vyberte službu
+                </label>
+                <select id="services"
+                        class="border border-gray-300 bg-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                    <option v-for="service in services" :key="service.id" :selected="service.id === 1">
+                        {{ service.name }}
+                    </option>
+                </select>
             </div>
         </div>
 
@@ -99,5 +98,12 @@
 </template>
 
 <script setup lang="ts">
-
+const services = ref<{ id: number, name: string }[]>([
+    {id: 1, name: "oprava automobilu"},
+    {id: 2, name: "plnění klimatizací"},
+    {id: 3, name: "příprava na STK"},
+    {id: 4, name: "výměna kapalin"},
+    {id: 5, name: "přezutí kol"},
+    {id: 6, name: "uskladnění kol"},
+])
 </script>
