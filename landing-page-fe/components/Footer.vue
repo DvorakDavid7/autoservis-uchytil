@@ -1,41 +1,43 @@
 <template>
     <section id="footer" class="bg-[var(--primary-red)]">
         <div class="grid text-white grid-cols-1 sm:grid-cols-2 ">
-            <div class="ps-10 mt-10 mb-10">
-                <div class="flex items-center mb-4">
-                    <i class="bi bi-geo-alt text-2xl mr-4"></i>
-                    <div>
-                        <h1 class="text-xl font-bold">Autoservis Uchytil</h1>
-                        <p class="font-semibold">Provozovna</p>
-                        <p>nám. Jiřího Berana 191,</p>
-                        <p>196 00 Praha-Čakovice</p>
+            <div class="ps-10 mt-10 mb-10 flex flex-col justify-between items-center">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="bi bi-geo-alt text-2xl mr-4"></i>
+                        <div>
+                            <h1 class="text-xl font-bold">Autoservis Uchytil</h1>
+                            <p class="font-semibold">Provozovna</p>
+                            <p>nám. Jiřího Berana 191,</p>
+                            <p>196 00 Praha-Čakovice</p>
+                        </div>
                     </div>
-                </div>
-                <div class="flex items-center mb-4">
-                    <p class="text-2xl mr-4 font-bold">IČ</p>
-                    <div>
-                        <h1 class="text-lg font-normal">19382499</h1>
+                    <div class="flex items-center mb-4">
+                        <p class="text-2xl mr-4 font-bold">IČ</p>
+                        <div>
+                            <h1 class="text-lg font-normal">19382499</h1>
+                        </div>
                     </div>
-                </div>
-                <div class="flex items-center">
-                    <i class="bi bi-telephone-fill text-2xl mr-2"></i>
-                    <span>(+420) 605 844 075</span>
-                </div>
-                <div class="flex items-center mt-2">
-                    <i class="bi bi-envelope-fill text-2xl mr-2"></i>
-                    <span>info@uchytil.cz</span>
-                </div>
-                <!-- Social Media -->
-                <div class="flex space-x-4 mt-10">
-                    <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
+                    <div class="flex items-center">
+                        <i class="bi bi-telephone-fill text-2xl mr-4"></i>
+                        <span>(+420) 605 844 075</span>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <i class="bi bi-envelope-fill text-2xl mr-4"></i>
+                        <span>info@uchytil.cz</span>
+                    </div>
+                    <!-- Social Media -->
+                    <div class="flex space-x-4 mt-10">
+                        <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="p-10">

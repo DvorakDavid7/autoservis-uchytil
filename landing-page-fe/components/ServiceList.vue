@@ -9,14 +9,15 @@
                 />
                 <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1 mt-20">
                     <Service
-                        service-title="Plnění klimatizací"
-                        service-image="/services/service_climatization.svg"
-                        service-description="Plnění klimatizace do aut je klíčovým prvkem udržení optimálního komfortu a bezpečnosti během jízdy. "
-                    />
-                    <Service
                         service-title="Oprava automobilu"
                         service-image="/services/service_car.svg"
                         service-description="Provádíme diagnostiku, opravy motoru, brzdového systému, drobné elektroniky, převodovky a dalších klíčových částí."
+                    />
+                    <Service
+                        highlighted
+                        service-title="Plnění klimatizací"
+                        service-image="/services/service_climatization.svg"
+                        service-description="Plnění klimatizace do aut je klíčovým prvkem udržení optimálního komfortu a bezpečnosti během jízdy. "
                     />
                     <Service
                         service-title="Příprava na STK"
