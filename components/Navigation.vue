@@ -11,18 +11,18 @@
         <div class="flex gap-8 text-white items-center justify-center">
             <div class="flex items-center justify-center text-2xl text-white">
                 <i class="bi bi-telephone-fill"></i>
-                <span class="not-italic text-sm ml-5"><strong>(+420) 605 844 075</strong></span>
+                <span class="not-italic text-sm mt-2 ml-5"><strong>(+420) 605 844 075</strong></span>
             </div>
 
-            <a href="" class="text-white hover:text-gray-200 text-2xl">
+            <a href="https://www.facebook.com/profile.php?id=61560377717879" class="text-white hover:text-gray-200 text-2xl">
                 <i class="bi bi-facebook"></i>
             </a>
-            <a href="" class="text-white hover:text-gray-200 text-2xl">
+            <a href="https://www.instagram.com" class="text-white hover:text-gray-200 text-2xl">
                 <i class="bi bi-instagram"></i>
             </a>
-            <a href="" class="text-white hover:text-gray-200 text-2xl">
+            <!-- <a href="" class="text-white hover:text-gray-200 text-2xl">
                 <i class="bi bi-linkedin"></i>
-            </a>
+            </a> -->
         </div>
     </nav>
 </template>
