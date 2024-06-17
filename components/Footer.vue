@@ -28,15 +28,15 @@
                     </div>
                     <!-- Social Media -->
                     <div class="flex space-x-4 mt-10">
-                        <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
-                            <i class="bi bi-facebook"></i>
+                        <a href="https://www.facebook.com/profile.php?id=61560377717879" class="text-white hover:text-gray-200 text-2xl">
+                          <i class="bi bi-facebook"></i>
                         </a>
-                        <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+                        <a href="https://www.instagram.com" class="text-white hover:text-gray-200 text-2xl">
                             <i class="bi bi-instagram"></i>
                         </a>
-                        <a href="#responsive-header" class="text-white hover:text-gray-200 text-2xl">
+                        <!-- <a href="" class="text-white hover:text-gray-200 text-2xl">
                             <i class="bi bi-linkedin"></i>
-                        </a>
+                        </a> -->
                     </div>
                     <div class="flex items-center mb-4 space-x-4 mt-10">
                         <NuxtLink to="/personal-data" class="text-white hover:text-gray-200">
