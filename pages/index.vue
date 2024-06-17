@@ -1,6 +1,6 @@
 <template>
     <!--    <Navbar/>-->
-    <Navigation/>
+    <Navigation :show-offset="100"/>
     <Landing/>
     <ServiceList/>
     <Parallax/>

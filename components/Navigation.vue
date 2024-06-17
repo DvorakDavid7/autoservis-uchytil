@@ -30,10 +30,15 @@
 <script setup lang="ts">
 const animation = ref<string>("")
 const hiddenClass = ref<string>("hidden")
-const OFFSET = 100;
+
+interface NavigationProps {
+    showOffset?: number
+}
+
+const props = defineProps<NavigationProps>()
 
 function handleScroll() {
-    if (window.scrollY > OFFSET) {
+    if (props.showOffset && window.scrollY > props.showOffset) {
         animation.value = "animate__fadeInDown"
         hiddenClass.value = "sm:flex"
     } else {
@@ -42,7 +47,11 @@ function handleScroll() {
 }
 
 onMounted(() => {
-    window.addEventListener("scroll", handleScroll)
+    if (props.showOffset) {
+        window.addEventListener("scroll", handleScroll)
+    } else {
+        hiddenClass.value = "sm:flex"
+    }
 })
 
 onBeforeUnmount(() => {
