@@ -1,5 +1,4 @@
 <template>
-    <!--    <Navbar/>-->
     <Navigation :show-offset="100"/>
     <Landing/>
     <ServiceList/>
