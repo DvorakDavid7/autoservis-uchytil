@@ -149,7 +149,7 @@ const services = ref<{ id: number, name: string }[]>([
 const disabledTimes = computed(() => {
     const result = []
     for (let i = 0; i < 24; i++) {
-        if (i < 10 || i >= 20) {
+        if (i < 10 || i >= 19) {
             result.push({hours: i, minutes: '*'});
         }
     }
