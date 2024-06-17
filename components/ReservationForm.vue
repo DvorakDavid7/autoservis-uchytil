@@ -128,8 +128,8 @@ import {API_ENDPOINT} from "~/connector/api";
 
 
 const services = ref<{ id: number, name: string }[]>([
-    {id: 1, name: "oprava automobilu"},
-    {id: 2, name: "plnění klimatizací"},
+    {id: 1, name: "plnění klimatizací"},
+    {id: 2, name: "oprava automobilu"},
     {id: 3, name: "příprava na STK"},
     {id: 4, name: "výměna kapalin"},
     {id: 5, name: "přezutí kol"},
