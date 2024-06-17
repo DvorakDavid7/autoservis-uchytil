@@ -9,7 +9,10 @@
                 <span class="text-[var(--primary-red)]"><strong>Plnění klimatizací</strong></span> za
             </h1>
             <h1 class="text-white lg:text-6xl text-4xl">
-                zvýhodněnou cenu!
+                zvýhodněnou cenu od
+            </h1>
+            <h1 class="text-white lg:text-6xl text-4xl">
+                <span class="text-[var(--primary-red)]"><strong>3 Kč/gram!</strong></span>
             </h1>
         </div>
         <div>
