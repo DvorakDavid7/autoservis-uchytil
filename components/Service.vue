@@ -8,7 +8,7 @@
                 </div>
             </div>
             <Card style="max-width: 25rem;"
-                  :class="`justify-center mb-16 shadow items-center ${highlighted && 'bg-[var(--primary-red)] scale-105'}`"
+                  :class="`justify-center mb-16 shadow items-center ${highlighted && 'bg-[var(--primary-red)]'}`"
             >
                 <template #title>
                     <div :class="`mt-2 uppercase text-2xl ${textColor}`">
