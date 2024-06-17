@@ -63,8 +63,8 @@
                         <li>Po dobu, než je odvolán souhlas se zpracováním osobních údajů pro účely marketingu, nejdéle
                             do 2 let, jsou-li osobní údaje zpracovávány na základě souhlasu.
                         </li>
-                        <li>Po uplynutí doby uchovávání osobních údajů správce osobní údaje vymaže.</li>
                     </ol>
+                    <p>Po uplynutí doby uchovávání osobních údajů správce osobní údaje vymaže.</p>
                 </div>
                 <div class="text-block text-justify">
                     <h2 class="text-left text-2xl leading-loose">V. PŘÍJEMCI OSOBNÍCH ÚDAJŮ (SUBDODAVATELÉ SPRÁVCE)</h2>
