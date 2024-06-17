@@ -50,7 +50,7 @@
               <br>
               <p>Správce nemá v úmyslu předat osobní údaje do třetí země (do země mimo EU) nebo mezinárodní organizaci.</p>
               <br>
-              <p>Provozované služby, zajišťující marketingové a podpůrné služby.</p>
+              <p>Provozované služby, zajišťující marketingové a podpůrné služby:</p>
               <ol class="list-disc">
                 <li>Google analytics – zaznamenává cookie a použití webu,</li>
                 <li>Facebook – zaznamenává cookie, použití webu</li>
