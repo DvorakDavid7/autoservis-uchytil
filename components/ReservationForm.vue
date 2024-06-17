@@ -61,7 +61,7 @@
                 <label for="date" class="block mb-2 text-sm font-medium text-gray-900">
                     Datum rezervace
                 </label>
-                <VueDatePicker input-class-name="input" v-model="date"/>
+                <VueDatePicker required input-class-name="input" v-model="date"/>
             </div>
 
             <div>
@@ -69,6 +69,7 @@
                     Vyberte službu
                 </label>
                 <select id="services" ref="service"
+                        required
                         @change="changeSelectedService"
                         class="border border-gray-300 bg-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                     <option
@@ -137,7 +138,7 @@ const lastName = ref("")
 const email = ref("")
 const phone = ref("")
 const date = ref("")
-const selectedService = ref("")
+const selectedService = ref(services.value[0].name)
 const message = ref("")
 
 
@@ -165,6 +166,7 @@ async function submitForm() {
 
     if (response.ok) {
         const data = await response.json()
+        console.log(data)
         const reservationId = data.id
         await navigateTo(`/reservations/${reservationId}`)
     }
