@@ -3,7 +3,7 @@
         :class="`z-100 items-center justify-between bg-[var(--primary-red)] animate__animated ${hiddenClass} ${animation} animate__faster p-3 shadow-lg ps-10 pe-10`"
     >
         <div class="hidden sm:flex items-center text-white">
-            <a href="">
+            <a href="/">
                 <img class="" src="../assets/logo/logo_white.svg" alt="logo">
             </a>
         </div>

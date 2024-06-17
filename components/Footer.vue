@@ -39,11 +39,8 @@
                         </a>
                     </div>
                     <div class="flex items-center mb-4 space-x-4 mt-10">
-                        <NuxtLink to="/general-terms" class="text-white hover:text-gray-200">
-                            všeobecné obchodní podmínky
-                        </NuxtLink>
                         <NuxtLink to="/personal-data" class="text-white hover:text-gray-200">
-                            ochrana osobních údajů
+                            Zásady ochrany osobních údajů
                         </NuxtLink>
                     </div>
                 </div>

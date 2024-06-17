@@ -1,3 +1,5 @@
 <template>
-    <h1>Ochrana osobních údajů</h1>
+    <Navigation :show-offset="0"/>
+    <PersonalData/>
+    <Footer/>
 </template>
