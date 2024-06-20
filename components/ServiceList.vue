@@ -3,8 +3,8 @@
         <div class="flex items-center justify-center">
             <div class="mt-10 mb-10 min-h-full flex flex-col items-center">
                 <Headings
-                    headings-title="Naše "
-                    headings-title-black=" služby"
+                    headings-title="Naše"
+                    headings-title-black="služby"
                     headings-description="S dvacetiletou praxí"
                 />
                 <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1 mt-20">
