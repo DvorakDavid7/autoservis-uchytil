@@ -3,8 +3,8 @@
         <div class="flex items-center justify-center">
             <div class="flex flex-col items-center">
                 <Headings
-                    headings-title="Rezervační "
-                    headings-title-black=" formulář"
+                    headings-title="Rezervační"
+                    headings-title-black="formulář"
                     headings-description="Těšíme se na Vaší návštěvu"
                 />
             </div>
