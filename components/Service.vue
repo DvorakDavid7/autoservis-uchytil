@@ -2,7 +2,7 @@
     <div class="group justify-center text-center items-center flex flex-col">
         <div class="relative justify-center flex">
             <div
-                class="size-20 flex justify-center group-hover:bg-[var(--primary-red)] bg-black items-center rounded-md absolute z-[1] -top-16">
+                class="size-20 flex justify-center bg-black items-center rounded-md absolute z-[1] -top-16">
                 <div class="size-14">
                     <img :src="serviceImage" alt="Service Image"/>
                 </div>
