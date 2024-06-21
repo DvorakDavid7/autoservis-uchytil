@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /og_image.jpg
+
+Sitemap: https://www.autoservisjju.cz/sitemap.xml

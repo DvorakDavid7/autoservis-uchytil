@@ -1,0 +1,9 @@
+# START nuxt-simple-robots (indexable)
+User-agent: *
+Disallow: 
+
+Disallow: /og_image.jpg
+
+Sitemap: https://www.autoservisjju.cz/sitemap.xml
+Sitemap: https://autoservisjju.cz/sitemap.xml
+# END nuxt-simple-robots
