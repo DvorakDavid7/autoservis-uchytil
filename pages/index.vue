@@ -5,7 +5,6 @@
     <Parallax/>
     <Reservation/>
     <Footer/>
-
 </template>
 
 <style scoped>

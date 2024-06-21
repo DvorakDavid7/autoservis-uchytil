@@ -3,13 +3,13 @@
         <div class="flex items-center justify-center">
             <div class="mt-24 mb-10 min-h-full flex flex-col items-center">
                 <Headings
-                    headings-title="Zásady ochrany "
-                    headings-title-black=" osobních údajů"
+                    headings-title="Zásady ochrany"
+                    headings-title-black="osobních údajů"
                     headings-description=""
                 />
 
                 <div class="text-block text-justify">
-                    <h2 class="text-left text-2xl leading-loose">I. ZÁKLADNÍ USTANOVENÍ</h2>
+                    <h2 class="text-left text-2xl leading-loose">1. Základní ustanovení</h2>
                     <p>Správcem osobních údajů podle čl. 4 bod 7 nařízení Evropského parlamentu a Rady (EU) 2016/679 o
                         ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o pohybu těchto údajů (dále
                         jen: „GDPR”) je Jan Uchytil, IČ 19382499 se sídlem nám. Jiřího Berana 191, 196 00
@@ -25,15 +25,13 @@
                         pověřence pro ochranu osobních údajů.</p>
                 </div>
                 <div class="text-block">
-                    <h2 class="text-left text-2xl leading-loose">II. ZDROJE A KATEGORIE ZPRACOVÁVANÝCH OSOBNÍCH
-                        ÚDAJŮ</h2>
+                    <h2 class="text-left text-2xl leading-loose">2. Zdroje a kategorie zpracovaných údajů</h2>
                     <p>Správce zpracovává osobní údaje, které jste mu poskytl/a nebo osobní údaje, které správce získal
                         na základě plnění Vaší poptávky. Správce zpracovává Vaše identifikační a kontaktní údaje a údaje
                         nezbytné pro plnění poptávky.</p>
                 </div>
                 <div class="text-block">
-                    <h2 class="text-left text-2xl leading-loose">III. ZÁKONNÝ DŮVOD A ÚČEL ZPRACOVÁNÍ OSOBNÍCH
-                        ÚDAJŮ</h2>
+                    <h2 class="text-left text-2xl leading-loose">3. Zákonný důvod a účel zpracování osobních údajů</h2>
                     <p>Zákonným důvodem zpracování osobních údajů je plnění smlouvy mezi Vámi a správcem podle čl. 6
                         odst. 1 písm. b) GDPR, oprávněný zájem správce na poskytování přímého marketingu (zejména pro
                         zasílání obchodních sdělení a newsletterů) podle čl. 6 odst. 1 písm. f) GDPR.</p>
@@ -53,7 +51,7 @@
                         poskytl/a svůj výslovný souhlas.</p>
                 </div>
                 <div class="text-block text-justify">
-                    <h2 class="text-left text-2xl leading-loose">IV. DOBA UCHOVÁVÁNÍ ÚDAJŮ</h2>
+                    <h2 class="text-left text-2xl leading-loose">4. Doba uchování údajů</h2>
                     <p>Správce uchovává osobní údaje:</p>
                     <ol class="list-disc">
                         <li>Po dobu nezbytnou k výkonu práv a povinností vyplývajících ze smluvního vztahu mezi Vámi a
@@ -67,7 +65,7 @@
                     <p>Po uplynutí doby uchovávání osobních údajů správce osobní údaje vymaže.</p>
                 </div>
                 <div class="text-block text-justify">
-                    <h2 class="text-left text-2xl leading-loose">V. PŘÍJEMCI OSOBNÍCH ÚDAJŮ (SUBDODAVATELÉ SPRÁVCE)</h2>
+                    <h2 class="text-left text-2xl leading-loose">5. Příjemci osobních údajů (subdodavatelé správce)</h2>
                     <p>Příjemci osobních údajů jsou osoby:</p>
                     <ol class="list-disc">
                         <li> podílející se na dodání zboží / služeb / realizaci plateb na základě smlouvy,</li>
@@ -83,10 +81,10 @@
                         <li>Google analytics – zaznamenává cookie a použití webu,</li>
                         <li>Facebook – zaznamenává cookie, použití webu</li>
                     </ol>
-                    <p><strong>Více informací naleznete níže v části „Prohlášení o použití cookies“.</strong></p>
+                    <p><strong>Více informací naleznete v části Zásady Cookies.</strong></p>
                 </div>
                 <div class="text-block text-justify">
-                    <h2 class="text-left text-2xl leading-loose">VI. VAŠE PRÁVA</h2>
+                    <h2 class="text-left text-2xl leading-loose">6. Vaše práva</h2>
                     <p>Za podmínek stanovených v GDPR máte:</p>
                     <ol class="list-disc">
                         <li>právo na přístup ke svým osobním údajům dle čl. 15 GDPR,</li>
@@ -102,7 +100,7 @@
                     </ol>
                 </div>
                 <div class="text-block text-justify">
-                    <h2 class="text-left text-2xl leading-loose">VII. PODMÍNKY ZABEZPEČENÍ OSOBNÍCH ÚDAJŮ</h2>
+                    <h2 class="text-left text-2xl leading-loose">7. Podmínky zabezpečení osobních údajů</h2>
                     <p>Správce prohlašuje, že přijal veškerá vhodná technická a organizační opatření k zabezpečení
                         osobních údajů.</p>
                     <br>
@@ -113,7 +111,7 @@
                     <p>Správce prohlašuje, že k osobním údajům mají přístup pouze jím pověřené osoby.</p>
                 </div>
                 <div class="text-block text-justify">
-                    <h2 class="text-left text-2xl leading-loose">VIII. ZÁVĚREČNÁ USTANOVENÍ</h2>
+                    <h2 class="text-left text-2xl leading-loose">8. Závěrečná ustanovení</h2>
                     <p>Odesláním dotazu z internetového formuláře či vložením emailu z důvodu přihlášení se k odběru
                         marketingových sdělení potvrzujete, že jste seznámen/a s podmínkami ochrany osobních údajů a že
                         je v celém rozsahu přijímáte.</p>
