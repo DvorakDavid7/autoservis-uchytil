@@ -7,7 +7,6 @@
                 <img class="" src="../assets/logo/logo_white.svg" alt="logo">
             </a>
         </div>
-
         <div class="flex gap-8 text-white items-center justify-center">
             <div class="flex items-center justify-center text-2xl text-white">
                 <i class="bi bi-telephone-fill"></i>

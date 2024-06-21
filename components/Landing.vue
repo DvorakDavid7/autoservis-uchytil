@@ -26,6 +26,6 @@
 
 <style scoped>
 .bg-cover {
-    background-image: url("../assets/background/bg_car.png");
+    background-image: url("../assets/background/bg_car.jpg");
 }
 </style>

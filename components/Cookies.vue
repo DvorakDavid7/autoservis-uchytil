@@ -2,6 +2,7 @@
   <section id="personal-data" class="">
       <div class="flex items-center justify-center">
           <div class="mt-24 mb-10 min-h-full flex flex-col items-center">
+              <Breadcrumbs/>
               <Headings
                   headings-title="Zásady"
                   headings-title-black="Cookies"
@@ -59,7 +60,7 @@
               <div class="text-block text-justify">
                   <h2 class="text-left text-2xl leading-loose">6. Umístěné cookies</h2>
                   <p><strong>Google Analytics</strong></p>
-                  <p>Používáme Google Analytics pro statistiky webových stránek. <a href="https://cookiedatabase.org/service/google-analytics/" class="text-[var(--primary-red)]">Čtěte více</a></p>
+                  <p>Používáme Google Analytics pro statistiky webových stránek. <strong><a href="https://cookiedatabase.org/service/google-analytics/" class="text-[var(--primary-red)]">Čtěte více.</a></strong></p>
                   <div class="relative overflow-x-auto mt-5">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-800 dark:text-white">
                         <thead class="text-xs text-white uppercase bg-gray-50 dark:bg-gray-300 dark:text-gray-800">

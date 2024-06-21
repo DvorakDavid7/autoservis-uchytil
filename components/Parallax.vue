@@ -30,6 +30,6 @@
 
 <style scoped>
 .bg-numbers {
-    background-image: url("../assets/background/bg_mechanic.png");
+    background-image: url("../assets/background/bg_mechanic.jpg");
 }
 </style>
