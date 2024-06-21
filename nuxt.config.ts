@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://autoservisjju.cz',
     name: 'JJU Autoservis Čakovice',
-    description: 'Rodinný autoservis Praha - Čakovice. Provádíme plnění klimatizací, opravu automobilů a další servisní práce na počkání a za příznivé ceny. Rezervaci vyřídíte online!',
+    description: 'Rodinný Autoservis Praha - Čakovice. Provádíme plnění klimatizací, opravu automobilů, pravidelný servis, výměnu oleje a další servisní práce a služby na počkání za příznivé ceny. Rezervaci vyřídíte online!',
     defaultLocale: 'cz'
   },
   seo: {
