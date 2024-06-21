@@ -14,18 +14,18 @@
         </div>
       </div>
       <div class="flex flex-col items-center w-full">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-5 mt-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-5">
           <div class="text-center">
             <i class="bi bi-telephone-fill text-2xl"></i>
             <p class="text-xl mt-2"><strong>(+420) 605 844 075</strong></p>
           </div>
           <div class="text-center">
             <i class="bi bi-envelope-fill text-2xl"></i>
-            <p class="text-xl mt-2"><a href="mailto:info@autoservisjju.cz" target="_blank"><strong>info@autoservisjju.cz</strong></a></p>
+            <p class="text-xl mt-2"><a href="mailto:info@autoservisjju.cz" target="_blank">info@autoservisjju.cz</a></p>
           </div>
         </div>
       </div>
-      <div class="flex flex-col items-center mt-16 w-full">
+      <div class="flex flex-col items-center mt-10 w-full">
         <div class="flex justify-center mb-4 md:mb-0">
           <div class="flex gap-2">
             <a href="https://www.facebook.com/profile.php?id=61560377717879" class="text-white hover:text-gray-200 text-2xl mx-2">
@@ -50,6 +50,9 @@
             </NuxtLink>
           </div>
         </div>
+      </div>
+      <div class="text-xs font-thin">
+          Autoservis JJU ©{{ new Date().getFullYear() }}. Powered by <a href="https://advantup.cz"><span class="font-bold">Advantup</span></a>
       </div>
       <div class=" mt-4 w-full">
         <iframe

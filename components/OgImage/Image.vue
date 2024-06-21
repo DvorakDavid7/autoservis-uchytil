@@ -22,7 +22,7 @@ withDefaults(defineProps<{
         <h3 class="text-[60px] font-black text-center text-white leading-2" >
           {{ location  }}
         </h3>
-        <button class="text-white bg-[#F33235] duration-300 rounded-full font-bold uppercase mt-10 py-4 px-5 text-30px">
+        <button class="text-white bg-[#F33235] duration-300 rounded-full font-black uppercase mt-10 py-4 px-5 text-20px">
           {{ note }}
         </button>
       </div>
