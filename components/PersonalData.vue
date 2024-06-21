@@ -111,7 +111,7 @@
                 </div>
                 <div class="text-block text-justify">
                     <h2 class="text-left text-2xl leading-base">8. Závěrečná ustanovení</h2>
-                    <p>Odesláním dotazu z internetového formuláře či vložením emailu z důvodu přihlášení se k{{'\xa0'}}odběru
+                    <p>Odesláním dotazu z{{'\xa0'}}internetového formuláře či vložením emailu z{{'\xa0'}}důvodu přihlášení se k{{'\xa0'}}odběru
                         marketingových sdělení potvrzujete, že jste seznámen/a{{'\xa0'}}s{{'\xa0'}}podmínkami ochrany osobních údajů a{{'\xa0'}}že
                         je v{{'\xa0'}}celém rozsahu přijímáte.</p>
                     <br>
