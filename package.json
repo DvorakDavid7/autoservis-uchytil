@@ -15,6 +15,7 @@
 		"animate.css": "^4.1.1",
 		"animejs": "^3.2.2",
 		"nuxt": "^3.11.2",
+		"primeicons": "^7.0.0",
 		"primevue": "^3.52.0",
 		"vanilla-cookieconsent": "^3.0.1",
 		"vue": "^3.4.27",
@@ -23,11 +24,16 @@
 		"vue3-autocounter": "^1.0.6"
 	},
 	"devDependencies": {
+		"@nuxtjs/seo": "^2.0.0-rc.10",
+		"@nuxtjs/sitemap": "^5.2.0",
 		"@types/animejs": "^3.1.12",
 		"autoprefixer": "^10.4.19",
 		"nuxt": "^3.11.2",
 		"nuxt-gtag": "^2.0.6",
+		"nuxt-og-image": "^2.2.6",
 		"nuxt-primevue": "^3.0.0",
+		"nuxt-site-config": "^2.2.12",
+		"nuxt-site-config-kit": "^2.2.12",
 		"postcss": "^8.4.38",
 		"tailwindcss": "^3.4.4"
 	}

@@ -2,6 +2,7 @@
     <section id="personal-data" class="">
         <div class="flex items-center justify-center">
             <div class="mt-24 mb-10 min-h-full flex flex-col items-center">
+                <Breadcrumbs/>
                 <Headings
                     headings-title="Zásady ochrany"
                     headings-title-black="osobních údajů"
@@ -81,7 +82,7 @@
                         <li>Google analytics – zaznamenává cookie a použití webu,</li>
                         <li>Facebook – zaznamenává cookie, použití webu</li>
                     </ol>
-                    <p><strong>Více informací naleznete v části Zásady Cookies.</strong></p>
+                    <p><strong>Více informací naleznete v části <NuxtLink to="/zasady-cookies" class="text-[var(--primary-red)]">Zásady Cookies</NuxtLink>.</strong></p>
                 </div>
                 <div class="text-block text-justify">
                     <h2 class="text-left text-2xl leading-loose">6. Vaše práva</h2>

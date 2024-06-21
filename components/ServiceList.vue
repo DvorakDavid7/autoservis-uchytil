@@ -7,7 +7,7 @@
                     headings-title-black="služby"
                     headings-description="S dvacetiletou praxí"
                 />
-                <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1 mt-20">
+                <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1 mt-20 m-10">
                     <Service
                         service-title="Oprava automobilu"
                         service-image="/services/service_car.svg"
