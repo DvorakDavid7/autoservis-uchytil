@@ -18,7 +18,7 @@
                 <template #content>
                     <p
                         :class="`m-0 hyphens-autotext-balance text-gray-400 text-md ${textColor}`"
-                        lang="cz"
+                        lang="cs"
                     >
                         {{ serviceDescription }}
                     </p>
