@@ -60,7 +60,7 @@
               <div class="text-block text-justify">
                   <h2 class="text-left text-2xl leading-base">7. Umístěné cookies</h2>
                   <p><strong>Google Analytics</strong></p>
-                  <p>Používáme Google Analytics pro statistiky webových stránek. <strong><a href="https://cookiedatabase.org/service/google-analytics/" class="text-[var(--primary-red)]">Čtěte více.</a></strong></p>
+                  <p>Používáme Google Analytics pro statistiky webových stránek. <strong><a href="https://cookiedatabase.org/service/google-analytics/" class="text-[var(--primary-red)]">Čtěte více</a></strong>.</p>
                   <div class="relative overflow-x-auto mt-5">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-800 dark:text-white">
                         <thead class="text-xs text-white uppercase bg-gray-50 dark:bg-gray-300 dark:text-gray-800">
@@ -85,7 +85,7 @@
                                     1 rok
                                 </td>
                                 <td class="px-6 py-4">
-                                    Uchovávat a{{'\xa0'}}počítat zobrazení stránek
+                                    Uchovávat a{{'\xa0'}}počítat zobrazení stránek.
                                 </td>
                             </tr>
                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -96,7 +96,7 @@
                                     2 roky
                                 </td>
                                 <td class="px-6 py-4">
-                                    Uchovávat a{{'\xa0'}}počítat zobrazení stránek
+                                    Uchovávat a{{'\xa0'}}počítat zobrazení stránek.
                                 </td>
                             </tr>
                         </tbody>
