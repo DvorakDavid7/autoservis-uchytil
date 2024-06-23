@@ -52,8 +52,8 @@ const config: CookieConsentConfig = {
           title: "Používáme Cookies!",
           description:
             'Abychom poskytli co nejlepší služby, používáme k ukládání a/nebo přístupu k informacím o zařízení, technologie jako jsou soubory cookies.',
-          acceptAllBtn: 'Přijmout',
-          acceptNecessaryBtn: 'Odmítnout',
+          acceptAllBtn: 'Přijmout vše',
+          acceptNecessaryBtn: '',
           showPreferencesBtn: 'Zobrazit předvolby',
           footer: `
             <a href="/zasady-ochrany-osobnich-udaju">Zásady ochrany osobních údajů</a>
@@ -63,11 +63,11 @@ const config: CookieConsentConfig = {
         preferencesModal: {
           title: 'Předvolby cookies',
           acceptAllBtn: 'Přijmout vše',
-          acceptNecessaryBtn: 'Zamítnout vše',
+          acceptNecessaryBtn: '',
           savePreferencesBtn: 'Uložit předvolby',
           sections: [
             {
-              title: 'Použití sookies',
+              title: 'Použití cookies',
               description:
                 'Abychom poskytli co nejlepší služby, používáme k ukládání a/nebo přístupu k informacím o zařízení, technologie jako jsou soubory cookies. Souhlas s těmito technologiemi nám umožní zpracovávat údaje, jako je chování při procházení nebo jedinečná ID na tomto webu. Nesouhlas nebo odvolání souhlasu může nepříznivě ovlivnit určité vlastnosti a funkce.',
             },
