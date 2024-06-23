@@ -32,6 +32,7 @@ const config: CookieConsentConfig = {
       enabled: true,
     },
     analytics: {
+      enabled: true,
       autoClear: {
         cookies: [
           {
@@ -40,7 +41,9 @@ const config: CookieConsentConfig = {
         ],
       },
     },
-    ads: {},
+    ads: {
+      enabled: true
+    },
   },
 
   language: {
