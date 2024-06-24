@@ -109,7 +109,7 @@
             <div>
              <div id="content">
           <h1 class="text-2xl mb-3">XML Sitemap</h1>
-          <h2>JJU Autoservis Čakovice</h2>
+          <h2>Autoservis JJU | Praha-Čakovice</h2>
           
           <xsl:if test="count(sitemap:sitemapindex/sitemap:sitemap) &gt; 0">
             <p class="expl" style="margin-bottom: 1rem;">

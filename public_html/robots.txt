@@ -4,6 +4,9 @@ Disallow:
 
 Disallow: /og_image.jpg
 
+User-agent: Googlebot-Image
+Disallow: /
+
 Sitemap: https://www.autoservisjju.cz/sitemap.xml
 Sitemap: https://autoservisjju.cz/sitemap.xml
 # END nuxt-simple-robots
