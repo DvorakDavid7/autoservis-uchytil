@@ -120,7 +120,7 @@
             <button
                 :disabled="isLoading"
                 type="submit"
-                class="flex justify-center items-center text-white bg-[var(--primary-red)] hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-2xl w-full sm:w-auto px-5 py-4 text-center"
+                class="flex justify-center items-center text-white bg-[var(--primary-red)] hover:bg-red-700 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-4 text-center"
             >
                 <svg v-if="isLoading" width="20" height="20" fill="currentColor" class="mr-2 animate-spin"
                      viewBox="0 0 1792 1792"
