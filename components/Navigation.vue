@@ -13,15 +13,12 @@
                 <span class="not-italic text-sm mt-2 ml-5"><strong>(+420) 605 844 075</strong></span>
             </div>
 
-            <a href="https://www.facebook.com/profile.php?id=61560377717879" class="text-white hover:text-gray-200 text-2xl">
+            <a href="https://www.facebook.com/profile.php?id=61560377717879" aria-label="Facebook" class="text-white hover:text-gray-200 text-2xl">
                 <i class="bi bi-facebook"></i>
             </a>
-            <a href="https://www.instagram.com" class="text-white hover:text-gray-200 text-2xl">
+            <a href="https://www.instagram.com" aria-label="Instagram" class="text-white hover:text-gray-200 text-2xl">
                 <i class="bi bi-instagram"></i>
             </a>
-            <!-- <a href="" class="text-white hover:text-gray-200 text-2xl">
-                <i class="bi bi-linkedin"></i>
-            </a> -->
         </div>
     </nav>
 </template>

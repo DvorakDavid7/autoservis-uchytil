@@ -7,6 +7,7 @@
                 </label>
                 <input
                     id="first_name"
+                    autocomplete="given-name"
                     type="text"
                     v-model="firstName"
                     class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
@@ -21,6 +22,7 @@
                 </label>
                 <input
                     id="last_name"
+                    autocomplete="family-name"
                     type="text"
                     v-model="lastName"
                     class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
@@ -35,10 +37,11 @@
                 </label>
                 <input
                     id="email"
+                    autocomplete="email"
                     type="email"
                     v-model="email"
                     class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                    placeholder="jannovak@gmail.com"
+                    placeholder="jan.novak@seznam.cz"
                     required
                 />
             </div>
@@ -49,7 +52,8 @@
                 </label>
                 <input
                     id="phone"
-                    type="text"
+                    autocomplete="tel"
+                    type="tel"
                     v-model="phone"
                     class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     placeholder="722 159 402"
@@ -63,15 +67,17 @@
                 </label>
                 <VueDatePicker
                     :disabled-times="disabledTimes"
+                    autocomplete="off"
                     time-picker-inline
                     required
+                    id="date"
                     input-class-name="input"
                     v-model="date"
                 />
             </div>
 
             <div>
-                <label for="countries" class="block mb-2 text-sm font-medium text-gray-900">
+                <label for="services" class="block mb-2 text-sm font-medium text-gray-900">
                     Vyberte službu
                 </label>
                 <select id="services" ref="service"
@@ -114,7 +120,7 @@
             <button
                 :disabled="isLoading"
                 type="submit"
-                class="flex justify-center items-center text-white bg-[var(--primary-red)] hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+                class="flex justify-center items-center text-white bg-[var(--primary-red)] hover:bg-red-700 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-4 text-center"
             >
                 <svg v-if="isLoading" width="20" height="20" fill="currentColor" class="mr-2 animate-spin"
                      viewBox="0 0 1792 1792"
@@ -123,7 +129,7 @@
                         d="M526 1394q0 53-37.5 90.5t-90.5 37.5q-52 0-90-38t-38-90q0-53 37.5-90.5t90.5-37.5 90.5 37.5 37.5 90.5zm498 206q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-704-704q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm1202 498q0 52-38 90t-90 38q-53 0-90.5-37.5t-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-964-996q0 66-47 113t-113 47-113-47-47-113 47-113 113-47 113 47 47 113zm1170 498q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-640-704q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm530 206q0 93-66 158.5t-158 65.5q-93 0-158.5-65.5t-65.5-158.5q0-92 65.5-158t158.5-66q92 0 158 66t66 158z">
                     </path>
                 </svg>
-                Rezervovat
+                <strong>REZERVOVAT</strong>
             </button>
         </div>
     </form>

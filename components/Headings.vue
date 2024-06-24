@@ -8,9 +8,9 @@
         <span class="relative text-white"><em><strong>{{ headingsTitleBlack }}</strong></em></span>
         </span>
         </h1>
-        <h3 class="mb-5 mt-5 font-light text-gray-500 text-sm md:text-xl uppercase">
+        <p class="mb-5 mt-5 font-light text-gray-500 text-sm md:text-xl uppercase">
             {{ headingsDescription }}
-        </h3>
+        </p>
     </div>
 </template>
 
