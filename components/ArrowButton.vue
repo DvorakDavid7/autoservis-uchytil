@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-20 arrow-button">
-        <a href="#services" class="bi bi-chevron-down text-gray-400 text-2xl arrow-icon"></a>
+    <div class=" mt-5 arrow-button">
+        <a href="#services" aria-label="Services" class="bi bi-chevron-down text-gray-400 text-2xl arrow-icon"></a>
     </div>
 </template>
 

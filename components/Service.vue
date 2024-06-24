@@ -17,7 +17,7 @@
                 </template>
                 <template #content>
                     <p
-                        :class="`m-0 hyphens-autotext-balance text-gray-400 text-md ${textColor}`"
+                        :class="`m-0 hyphens-autotext-balance text-black text-md ${textColor}`"
                         lang="cs"
                     >
                         {{ serviceDescription }}
