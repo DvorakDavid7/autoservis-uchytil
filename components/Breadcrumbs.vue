@@ -1,5 +1,5 @@
 <template>
-  <Breadcrumb :home="home" :model="items">
+  <Breadcrumb :home="home" :model="items" class="text-xs lg:text-base text-gray-500">
     <template #home="{ home, props }">
       <router-link v-if="home.to" v-slot="{ href, navigate }" :to="home.to" custom>
         <a :href="href" v-bind="props.action" @click="navigate">
@@ -15,7 +15,7 @@
     <template #item="{ item, props }">
       <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
         <a :href="href" v-bind="props.action" @click="navigate">
-          <span :class="[item.icon, 'text-color']" />
+          <span :class="[item.icon, 'text-color', 'text-xs lg:text-base text-gray-500']" />
           <span class="text-primary font-semibold">{{ item.label }}</span>
         </a>
       </router-link>
