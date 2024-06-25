@@ -11,8 +11,8 @@
 
                 <div class="text-block text-justify">
                     <h2 class="text-left text-2xl leading-base">1. Základní ustanovení</h2>
-                    <p>Správcem osobních údajů podle čl.{{'\xa0'}}4{{'\xa0'}}bod 7 nařízení Evropského parlamentu a{{'\xa0'}}Rady (EU){{'\xa0'}}2016/679 o
-                        ochraně fyzických osob v{{'\xa0'}}souvislosti se zpracováním osobních údajů a{{'\xa0'}}o{{'\xa0'}}pohybu těchto údajů (dále
+                    <p>Správcem osobních údajů podle čl.{{'\xa0'}}4{{'\xa0'}}bod 7 nařízení Evropského parlamentu a{{'\xa0'}}Rady (EU){{'\xa0'}}2016/679 
+                        o{{'\xa0'}}ochraně fyzických osob v{{'\xa0'}}souvislosti se zpracováním osobních údajů a{{'\xa0'}}o{{'\xa0'}}pohybu těchto údajů (dále
                         jen: „GDPR”) je Jan Uchytil, IČ 19382499 se sídlem nám. Jiřího Berana 191, 196 00 Praha-Čakovice.</p>
                     <br>
                     <p><strong>Email:</strong> info@autoservisjju.cz </p>
@@ -38,8 +38,8 @@
                     <br>
                     <p>Váš souhlas se zpracováním pro účely poskytování přímého marketingu (zejména pro zasílání
                         obchodních sdělení a{{'\xa0'}}newsletterů) podle čl.{{'\xa0'}}6 odst.{{'\xa0'}}1 písm.{{'\xa0'}}a) GDPR ve spojení s{{'\xa0'}}§ 7 odst. 2
-                        zákona č.{{'\xa0'}}480/2004 Sb., o{{'\xa0'}}některých službách informační společnosti v{{'\xa0'}}případě, že nedošlo k
-                        objednávce zboží nebo služby.</p>
+                        zákona č.{{'\xa0'}}480/2004 Sb., o{{'\xa0'}}některých službách informační společnosti v{{'\xa0'}}případě, že nedošlo 
+                        k{{'\xa0'}}objednávce zboží nebo služby.</p>
                     <br>
                     <p>Účelem zpracování osobních údajů je vyřízení Vašeho dotazu a{{'\xa0'}}výkon práv a{{'\xa0'}}povinností
                         vyplývajících ze smluvního vztahu mezi Vámi a{{'\xa0'}}správcem; při zaslání dotazu jsou vyžadovány
@@ -132,7 +132,6 @@
 
 .text-block {
     background-color: #fff;
-    padding: 10px;
     margin: 5px auto;
     width: 80%;
     max-width: 1200px;
