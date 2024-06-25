@@ -136,7 +136,6 @@
 
 .text-block {
   background-color: #fff;
-  padding: 10px;
   margin: 5px auto;
   width: 80%;
   max-width: 1200px;
