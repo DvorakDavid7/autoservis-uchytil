@@ -6,7 +6,7 @@
                 <div class="mt-10 mb-10 grid lg:grid-cols-3 grid-cols-1 lg:gap-20 gap-10">
                     <div>
                         <Counter
-                            :counter-to="340"
+                            :counter-to="1450"
                             :counter-duration="200"
                             counter-title="spokojených zákazníků"/>
                     </div>
@@ -18,7 +18,7 @@
                     </div>
                     <div>
                         <Counter
-                            :counter-to="243"
+                            :counter-to="1892"
                             :counter-duration="1"
                             counter-title="opravených aut"/>
                     </div>
