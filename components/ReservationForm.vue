@@ -183,7 +183,7 @@ async function submitForm() {
         phone: phone.value,
         date: formatDateToCustomString(date.value),
         service: selectedService.value,
-        message: message.value,
+        note: message.value,
     }
 
     const response = await fetch(`${API_ENDPOINT}/api/reservation`, {
