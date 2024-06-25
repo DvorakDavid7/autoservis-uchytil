@@ -1,1 +1,0 @@
-const t="http://localhost:8000";async function a(){return await(await fetch(`${t}/api/reservation/all`,{method:"GET",headers:{"Content-Type":"application/json",Accept:"application/json"}})).json()}export{t as A,a as g};
