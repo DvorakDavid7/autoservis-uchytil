@@ -12,11 +12,11 @@
 
 <script setup lang="ts">
 definePageMeta({
-  title: 'Autoservis JJU | Praha-Čakovice'
+    title: 'Autoservis JJU | Praha-Čakovice'
 })
 defineOgImageComponent('Image', {
-  title: 'AUTOSERVIS UCHYTIL',
-  location: 'Praha - Čakovice',
-  note: 'REZERVOVAT NYNÍ'
+    title: 'AUTOSERVIS UCHYTIL',
+    location: 'Praha - Čakovice',
+    note: 'REZERVOVAT NYNÍ'
 })
 </script>

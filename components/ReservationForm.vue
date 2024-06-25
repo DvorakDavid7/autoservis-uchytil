@@ -66,7 +66,14 @@
                     Datum rezervace
                 </label>
                 <VueDatePicker
+                    @date-update="dateClicked"
                     :disabled-times="disabledTimes"
+                    :min-date="new Date()"
+                    :min-time="{hours: 10, minutes: 0}"
+                    :max-time="{hours: 19, minutes: 0}"
+                    minutes-grid-increment="15"
+                    minutes-increment="15"
+                    timezone="CET"
                     autocomplete="off"
                     time-picker-inline
                     required
@@ -89,7 +96,6 @@
                         :key="service.id"
                         :value="service.name"
                         :selected="service.id === 1"
-                        :disabled="service.id !== 1"
                     >
                         {{ service.name }}
                     </option>
@@ -113,7 +119,9 @@
             <input required id="default-checkbox" type="checkbox"
                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
             <label for="default-checkbox" class="ms-2 text-sm font-medium text-gray-500">
-                Souhlasím se zpracováním osobních údajů podle <NuxtLink to="/zasady-ochrany-osobnich-udaju" class="underline">zásad ochrany osobních údajů</NuxtLink>.
+                Souhlasím se zpracováním osobních údajů podle
+                <NuxtLink to="/zasady-ochrany-osobnich-udaju" class="underline">zásad ochrany osobních údajů</NuxtLink>
+                .
             </label>
         </div>
         <div class="flex mt-10 mb-10 justify-end">
@@ -136,9 +144,10 @@
 </template>
 
 <script setup lang="ts">
-import VueDatePicker from "@vuepic/vue-datepicker";
+import VueDatePicker, {type TimeObj} from "@vuepic/vue-datepicker";
 import '@vuepic/vue-datepicker/dist/main.css'
-import {API_ENDPOINT} from "~/connector/api";
+import {API_ENDPOINT, getAllReservations} from "~/connector/api";
+import {convert, formatDateToCustomString} from "~/utils/dateUtil";
 
 
 const services = ref<{ id: number, name: string }[]>([
@@ -150,24 +159,17 @@ const services = ref<{ id: number, name: string }[]>([
     {id: 6, name: "Uskladnění kol"},
 ])
 
-const disabledTimes = computed(() => {
-    const result = []
-    for (let i = 0; i < 24; i++) {
-        if (i < 10 || i >= 19) {
-            result.push({hours: i, minutes: '*'});
-        }
-    }
-    return result
-})
-
 const isLoading = ref<boolean>(false)
-
 
 const firstName = ref("")
 const lastName = ref("")
 const email = ref("")
 const phone = ref("")
-const date = ref("")
+
+const d = new Date();
+d.setHours(0,0,0,0);
+
+const date = ref(d)
 const selectedService = ref(services.value[0].name)
 const message = ref("")
 
@@ -179,7 +181,7 @@ async function submitForm() {
         surname: lastName.value,
         email: email.value,
         phone: phone.value,
-        date: date.value,
+        date: formatDateToCustomString(date.value),
         service: selectedService.value,
         message: message.value,
     }
@@ -205,6 +207,23 @@ async function submitForm() {
 function changeSelectedService(event) {
     selectedService.value = event.target.value
 }
+
+const reservationDates = ref<Date[]>([])
+const disabledTimes = ref<TimeObj[]>([])
+
+const dateClicked = (date: string) => {
+    const d = new Date(date)
+    for (const reservation of reservationDates.value) {
+        if (reservation.getDate() === d.getDate()) {
+            disabledTimes.value.push({hours: reservation.getHours(), minutes: reservation.getMinutes(), seconds: 0})
+        }
+    }
+}
+
+onMounted(async () => {
+    const reservations = await getAllReservations()
+    reservationDates.value = reservations.map(r => convert(r["date"]))
+})
 
 </script>
 
