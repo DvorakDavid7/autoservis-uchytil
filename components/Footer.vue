@@ -17,7 +17,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-5">
           <div class="text-center">
             <i class="bi bi-telephone-fill text-2xl"></i>
-            <p class="text-xl mt-2"><strong>(+420) 605 844 075</strong></p>
+            <p class="text-xl mt-2"><strong>(+420) 774 034 180</strong></p>
           </div>
           <div class="text-center">
             <i class="bi bi-envelope-fill text-2xl"></i>

@@ -10,7 +10,7 @@
         <div class="flex gap-8 text-white items-center justify-center">
             <div class="flex items-center justify-center text-2xl text-white">
                 <i class="bi bi-telephone-fill"></i>
-                <span class="not-italic text-sm mt-2 ml-5"><strong>(+420) 605 844 075</strong></span>
+                <span class="not-italic text-sm mt-2 ml-5"><strong>(+420) 774 034 180</strong></span>
             </div>
 
             <a href="https://www.facebook.com/profile.php?id=61560377717879" aria-label="Facebook" class="text-white hover:text-gray-200 text-2xl">
