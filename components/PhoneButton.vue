@@ -1,9 +1,9 @@
 <template>
     <button
       @click="callNumber"
-      :class="`call-button z-100 justify-center items-center text-4xl animate__animated ${hiddenClass} ${animation} bg-[#0dd542] hover:bg-[#1f482afc]`"
+      :class="`call-button z-100 flex justify-center items-center text-center size-20 lg:size-24  animate__animated ${hiddenClass} ${animation} bg-[#0dd542] hover:bg-[#1f482afc]`"
     >
-      <i class="bi bi-telephone-fill"></i>
+      <i class="bi bi-telephone-fill text-4xl lg:text-4xl text-center "></i>
     </button>
 </template>
 
@@ -54,8 +54,6 @@ onBeforeUnmount(() => {
   padding: 10px 20px;
   color: white;
   border: none;
-  height: 80px;
-  width: 80px;
   border-radius: 50%;
   z-index: 1000;
 }
