@@ -16,9 +16,6 @@
             <a href="https://www.facebook.com/profile.php?id=61560377717879" aria-label="Facebook" class="text-white hover:text-gray-200 text-2xl">
                 <i class="bi bi-facebook"></i>
             </a>
-            <a href="https://www.instagram.com" aria-label="Instagram" class="text-white hover:text-gray-200 text-2xl">
-                <i class="bi bi-instagram"></i>
-            </a>
         </div>
     </nav>
 </template>

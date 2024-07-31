@@ -1,5 +1,6 @@
 <template>
     <Navigation :show-offset="100"/>
+    <PhoneButton :show-offset="100"/>
     <Landing/>
     <ServiceList/>
     <Parallax/>
