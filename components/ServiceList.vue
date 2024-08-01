@@ -27,7 +27,7 @@
                     <Service
                         service-title="Výměna kapalin"
                         service-image="/services/service_fluids.svg"
-                        service-description="Tato komplexní služba zahrnuje výměnu motorového oleje, chladící kapaliny, brzdové kapaliny, převodového oleje a dalších provozních kapalin."
+                        service-description="Tato služba zahrnuje výměnu motorového, převodového oleje, chladící nebo brzdové kapaliny a dalších provozních kapalin."
                     />
                     <Service
                         service-title="Přezutí kol"
