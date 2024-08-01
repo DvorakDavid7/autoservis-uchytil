@@ -11,18 +11,18 @@
                     <Service
                         service-title="Oprava automobilu"
                         service-image="/services/service_car.svg"
-                        service-description="Provádíme diagnostiku, opravy motoru, brzdového systému, drobné elektroniky, převodovky a dalších klíčových částí."
+                        service-description="Provádíme diagnostiku, opravy motoru, brzdového systému, drobné elektroniky, převodovky a dalších komponentů."
                     />
                     <Service
                         highlighted
                         service-title="Plnění klimatizací"
                         service-image="/services/service_climatization.svg"
-                        service-description="Plnění klimatizace do aut je klíčovým prvkem udržení optimálního komfortu a bezpečnosti během jízdy. "
+                        service-description="Plnění klimatizace do aut je nutným prvkem pro udržení optimálního komfortu a bezpečnosti během jízdy. "
                     />
                     <Service
                         service-title="Příprava na STK"
                         service-image="/services/service_stk.svg"
-                        service-description="Příprava auto na STK je klíčovou službou, která zajistí, že vaše vozidlo splňuje veškeré technické požadavky pro úspěšnou kontrolu."
+                        service-description="Příprava na STK je službou, která zajistí, že vaše vozidlo splňuje veškeré technické požadavky pro úspěšnou kontrolu."
                     />
                     <Service
                         service-title="Výměna kapalin"
@@ -32,12 +32,12 @@
                     <Service
                         service-title="Přezutí kol"
                         service-image="/services/service_tire.svg"
-                        service-description="Přezutí a uskladnění kol včetně vyvážení jsou další z našich klíčových služb našeho autoservisu, které přinášejí pohodlí a bezpečnost."
+                        service-description="Přezutí a vyvážení kol jsou další z našich klíčových služeb, které přinášejí bezpečnost Vaší jízdy."
                     />
                     <Service
                         service-title="Uskladnění kol"
                         service-image="/services/service_garage.svg"
-                        service-description="Nabízíme uskladnění kol. Naše bezpečné a klimatizované sklady zajistí, že vaše pneumatiky budou chráněny před nepříznivými vlivy počasí."
+                        service-description="Nabízíme uskladnění kol. Naše bezpečné a klimatizované sklady udrží Vaše pneumatiky chráněné před nepříznivými vlivy počasí."
                     />
                 </div>
             </div>

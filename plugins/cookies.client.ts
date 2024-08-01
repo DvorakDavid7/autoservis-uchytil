@@ -6,7 +6,7 @@ const config: CookieConsentConfig = {
   guiOptions: {
     consentModal: {
       layout: 'box',
-      position: 'bottom right',
+      position: 'bottom left',
       equalWeightButtons: false,
     },
     preferencesModal: {
